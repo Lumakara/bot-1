@@ -1,0 +1,83 @@
+{
+  "62881022970157@s.whatsapp.net": {
+    "nama": "jojo",
+    "exp": 47,
+    "level": 1,
+    "health": 100,
+    "fuel": 2,
+    "planet": "Jupiter",
+    "credit": 83,
+    "inventory": {
+      "weapon": "Laser Gun",
+      "medkit": 1,
+      "fuel": 1
+    },
+    "quest": {
+      "mission": {
+        "type": "jelajah",
+        "target": 3,
+        "reward": {
+          "exp": 50,
+          "credit": 30
+        }
+      },
+      "progress": 1,
+      "completed": false,
+      "lastReset": "Thu Oct 16 2025"
+    }
+  },
+  "6283191763116@s.whatsapp.net": {
+    "nama": "24",
+    "exp": 0,
+    "level": 1,
+    "health": 100,
+    "fuel": 3,
+    "planet": "Bumi",
+    "credit": 50,
+    "inventory": {
+      "weapon": "Laser Gun",
+      "medkit": 1,
+      "fuel": 1
+    },
+    "quest": {
+      "mission": {
+        "type": "win_battle",
+        "target": 1,
+        "reward": {
+          "exp": 100,
+          "credit": 70
+        }
+      },
+      "progress": 0,
+      "completed": false,
+      "lastReset": "Tue Nov 18 2025"
+    }
+  },
+  "6281514383144@s.whatsapp.net": {
+    "nama": "abcde",
+    "exp": 0,
+    "level": 1,
+    "health": 100,
+    "fuel": 3,
+    "planet": "Bumi",
+    "credit": 50,
+    "inventory": {
+      "weapon": "Laser Gun",
+      "medkit": 1,
+      "fuel": 1
+    },
+    "quest": {
+      "mission": {
+        "type": "win_battle",
+        "target": 1,
+        "reward": {
+          "exp": 100,
+          "credit": 70
+        }
+      },
+      "progress": 0,
+      "completed": false,
+      "lastReset": "Sun Dec 14 2025"
+    }
+  }
+}

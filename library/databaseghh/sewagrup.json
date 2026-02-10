@@ -1,0 +1,50 @@
+[
+  {
+    "jid": "120363405097044657@g.us",
+    "expired": 2623221804588,
+    "groupName": "resseler panel"
+  },
+  {
+    "jid": "120363160859131896@g.us",
+    "expired": 1846376064333,
+    "groupName": "alip ai MD"
+  },
+  {
+    "jid": "120363403499873515@g.us",
+    "expired": 1769056373649,
+    "warningSent": false,
+    "groupName": "ppj",
+    "lastRenewal": 1766066197542
+  },
+  {
+    "jid": "120363403463758608@g.us",
+    "expired": 1778586470896,
+    "warningSent": false,
+    "groupName": "info reseller alip ai"
+  },
+  {
+    "jid": "120363404466167199@g.us",
+    "expired": 1773965188484,
+    "phone": "6281249703469",
+    "addedAt": 1766189188484,
+    "addedBy": "6281249703469@s.whatsapp.net",
+    "groupName": "info update alip ai",
+    "warningSent": false,
+    "lastRenewal": 1766189188484
+  },
+  {
+    "jid": "120363424666295786@g.us",
+    "expired": 1768822995032,
+    "warningSent": false
+  },
+  {
+    "jid": "120363400057723832@g.us",
+    "expired": 1768823592034,
+    "warningSent": false
+  },
+  {
+    "jid": "120363403201132269@g.us",
+    "expired": 1769307041260,
+    "warningSent": false
+  }
+]

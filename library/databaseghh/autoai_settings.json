@@ -1,0 +1,74 @@
+{
+  "enabledGroups": {
+    "120363420987770900@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1766313936602,
+      "lastUsed": 1766366553368,
+      "disabledAt": 1765852571885
+    },
+    "120363404466167199@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1766249306729,
+      "lastUsed": 1766296528621,
+      "disabledAt": 1766247937267
+    },
+    "120363160859131896@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1765892995990,
+      "lastUsed": 1766387749636,
+      "disabledAt": 1765892664593
+    },
+    "120363405097044657@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1765841841351,
+      "lastUsed": 1766229263026
+    },
+    "120363401850534233@g.us": {
+      "enabled": false,
+      "mode": "vn",
+      "enabledAt": 1765960907750,
+      "lastUsed": 1766061346294,
+      "disabledAt": 1766061411971
+    },
+    "120363403499873515@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1765892868639,
+      "lastUsed": 1766334408036,
+      "disabledAt": 1765892651071
+    },
+    "120363403463758608@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1766310405389,
+      "lastUsed": 1766368636159,
+      "disabledAt": 1765981676738
+    },
+    "120363424666295786@g.us": {
+      "enabled": false,
+      "mode": "vn",
+      "enabledAt": 1766231007137,
+      "lastUsed": 1766233138605,
+      "disabledAt": 1766233168513
+    },
+    "120363400057723832@g.us": {
+      "enabled": true,
+      "mode": "vn",
+      "enabledAt": 1766232615258,
+      "lastUsed": 1766288328846
+    }
+  },
+  "voiceSettings": {
+    "120363160859131896@g.us": "bella",
+    "120363420987770900@g.us": "bella",
+    "120363404466167199@g.us": "bella",
+    "120363401850534233@g.us": "bella",
+    "120363403499873515@g.us": "bella",
+    "120363405097044657@g.us": "bella",
+    "120363403463758608@g.us": "jokowi"
+  }
+}

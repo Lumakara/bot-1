@@ -1,0 +1,16 @@
+{
+  "jadibots": {
+    "6281249703469": {
+      "owner": "6281249703469@s.whatsapp.net",
+      "phone": "6281249703469",
+      "jid": "6281249703469@s.whatsapp.net",
+      "created": 1765941321280,
+      "status": "pending"
+    }
+  },
+  "settings": {
+    "max_per_user": 3,
+    "auto_reconnect": true,
+    "session_timeout": 86400000
+  }
+}

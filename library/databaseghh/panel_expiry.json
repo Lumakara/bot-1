@@ -1,0 +1,1034 @@
+[
+  {
+    "serverId": 7,
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "yan",
+    "expiresAt": 1766983518605,
+    "suspended": false,
+    "created": 1764391518605,
+    "reseller": "6283898318616@s.whatsapp.net"
+  },
+  {
+    "serverId": 10,
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "pais",
+    "expiresAt": 1766987356679,
+    "suspended": false,
+    "created": 1764395356679,
+    "reseller": "6283898318616@s.whatsapp.net"
+  },
+  {
+    "serverId": 11,
+    "owner": "6285664235146@s.whatsapp.net",
+    "username": "pion",
+    "expiresAt": 1766987989422,
+    "suspended": false,
+    "created": 1764395989422,
+    "reseller": "6285664235146@s.whatsapp.net"
+  },
+  {
+    "serverId": 15,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "fadlanmek",
+    "expiresAt": 1767003603273,
+    "suspended": false,
+    "created": 1764411603274,
+    "reseller": null
+  },
+  {
+    "serverId": 17,
+    "owner": "62895803031177@s.whatsapp.net",
+    "username": "ybs",
+    "expiresAt": 1767150273607,
+    "suspended": false,
+    "created": 1764558273607,
+    "reseller": "62895803031177@s.whatsapp.net"
+  },
+  {
+    "serverId": 18,
+    "owner": "62895803031177@s.whatsapp.net",
+    "username": "fadz",
+    "expiresAt": 1767155334872,
+    "suspended": false,
+    "created": 1764563334872,
+    "reseller": "62895803031177@s.whatsapp.net"
+  },
+  {
+    "serverId": 21,
+    "owner": "6285664235146@s.whatsapp.net",
+    "username": "nakano",
+    "expiresAt": 1767250276607,
+    "suspended": false,
+    "created": 1764658276607,
+    "reseller": "6285664235146@s.whatsapp.net"
+  },
+  {
+    "serverId": 2,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "eja",
+    "expiresAt": 1768783517917,
+    "suspended": false,
+    "created": 1764388266108,
+    "reseller": null,
+    "suspendedAt": 1766116266201,
+    "notified": false,
+    "lastRenewed": 1766191518448
+  },
+  {
+    "serverId": 14,
+    "owner": "6283831803866@s.whatsapp.net",
+    "username": "lilit",
+    "expiresAt": 1766994906895,
+    "suspended": false,
+    "created": 1764402906895,
+    "reseller": "6283831803866@s.whatsapp.net"
+  },
+  {
+    "serverId": 19,
+    "owner": "6285373311356@s.whatsapp.net",
+    "username": "regalchan",
+    "expiresAt": 1767234120741,
+    "suspended": false,
+    "created": 1764642120742,
+    "reseller": null
+  },
+  {
+    "serverId": 22,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "niko",
+    "expiresAt": 1767254142010,
+    "suspended": false,
+    "created": 1764662142010,
+    "reseller": null
+  },
+  {
+    "serverId": 5,
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "itzz",
+    "expiresAt": 1766982907899,
+    "suspended": false,
+    "created": 1764390907899,
+    "reseller": "6283898318616@s.whatsapp.net"
+  },
+  {
+    "serverId": 9,
+    "owner": "6287792038186@s.whatsapp.net",
+    "username": "mora",
+    "expiresAt": 1766985773778,
+    "suspended": false,
+    "created": 1764393773778,
+    "reseller": "6287792038186@s.whatsapp.net"
+  },
+  {
+    "serverId": 13,
+    "owner": "6285664235146@s.whatsapp.net",
+    "username": "sakunaai",
+    "expiresAt": 1766988209997,
+    "suspended": false,
+    "created": 1764396209997,
+    "reseller": "6285664235146@s.whatsapp.net"
+  },
+  {
+    "serverId": 16,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "ulz",
+    "expiresAt": 1767236250490,
+    "suspended": false,
+    "created": 1764550037853,
+    "reseller": null,
+    "lastRenewed": 1764644250490,
+    "autoFixed": true
+  },
+  {
+    "serverId": 1,
+    "serverName": "alipclutch",
+    "reseller": "6281249703469@s.whatsapp.net",
+    "expiresAt": 1767236250490,
+    "suspended": false,
+    "createdAt": 1764644250490,
+    "lastRenewed": 1764644250490,
+    "autoFixed": true
+  },
+  {
+    "serverId": 24,
+    "name": "Aov Server",
+    "owner": "62895803031177@s.whatsapp.net",
+    "username": "aov",
+    "email": "aov@gmail.com",
+    "reseller": "62895803031177@s.whatsapp.net",
+    "expiresAt": 1767260820859,
+    "suspended": false,
+    "created": 1764668820859,
+    "lastRenewed": 1764668820859,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 26,
+    "name": "Okta Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "okta",
+    "email": "okta@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767291059498,
+    "suspended": false,
+    "created": 1764699059498,
+    "lastRenewed": 1764699059498,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 27,
+    "name": "Wabz Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "wabz",
+    "email": "wabz@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767306003044,
+    "suspended": false,
+    "created": 1764714003044,
+    "lastRenewed": 1764714003044,
+    "notified": false,
+    "spec": {
+      "ram": "1500",
+      "disk": "3000",
+      "cpu": "100",
+      "type": "1gb"
+    }
+  },
+  {
+    "serverId": 28,
+    "name": "Tele Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "tele",
+    "email": "tele@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767334013335,
+    "suspended": false,
+    "created": 1764742013335,
+    "lastRenewed": 1764742013335,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 29,
+    "name": "Mora1 Server",
+    "owner": "6287792038186@s.whatsapp.net",
+    "username": "mora1",
+    "email": "mora1@gmail.com",
+    "reseller": "6287792038186@s.whatsapp.net",
+    "expiresAt": 1767334866186,
+    "suspended": false,
+    "created": 1764742866186,
+    "lastRenewed": 1764742866186,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 31,
+    "name": "Tuo Server",
+    "owner": "62895803031177@s.whatsapp.net",
+    "username": "tuo",
+    "email": "tuo@gmail.com",
+    "reseller": "62895803031177@s.whatsapp.net",
+    "expiresAt": 1767351258359,
+    "suspended": false,
+    "created": 1764759258359,
+    "lastRenewed": 1764759258359,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 32,
+    "name": "Zizzslebew Server",
+    "owner": "6285705390430@s.whatsapp.net",
+    "username": "zizzslebew",
+    "email": "zizzslebew@gmail.com",
+    "reseller": "6285705390430@s.whatsapp.net",
+    "expiresAt": 1767364778393,
+    "suspended": false,
+    "created": 1764772778393,
+    "lastRenewed": 1764772778393,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 33,
+    "name": "Vinnz Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "vinnz",
+    "email": "vinnz@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767365586559,
+    "suspended": false,
+    "created": 1764773586559,
+    "lastRenewed": 1764773586559,
+    "notified": false,
+    "spec": {
+      "ram": "4000",
+      "disk": "7000",
+      "cpu": "250",
+      "type": "3gb"
+    }
+  },
+  {
+    "serverId": 34,
+    "name": "Nicoo Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "nicoo",
+    "email": "nicoo@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767415541375,
+    "suspended": false,
+    "created": 1764823541375,
+    "lastRenewed": 1764823541375,
+    "notified": false,
+    "spec": {
+      "ram": "3500",
+      "disk": "6000",
+      "cpu": "190",
+      "type": "2gb"
+    }
+  },
+  {
+    "serverId": 35,
+    "name": "Ridantips1 Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "ridantips1",
+    "email": "ridantips1@gmail.com",
+    "reseller": null,
+    "expiresAt": 1770021526392,
+    "suspended": false,
+    "created": 1764837526393,
+    "lastRenewed": 1765896284366,
+    "notified": false,
+    "spec": {
+      "ram": "1500",
+      "disk": "3000",
+      "cpu": "100",
+      "type": "1gb"
+    }
+  },
+  {
+    "serverId": 36,
+    "name": "Ridantips2 Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "ridantips2",
+    "email": "ridantips2@gmail.com",
+    "reseller": null,
+    "expiresAt": 1770021544285,
+    "suspended": false,
+    "created": 1764837544286,
+    "lastRenewed": 1765897427207,
+    "notified": false,
+    "spec": {
+      "ram": "1500",
+      "disk": "3000",
+      "cpu": "100",
+      "type": "1gb"
+    }
+  },
+  {
+    "serverId": 37,
+    "name": "Zfaa Server",
+    "owner": "6283831803866@s.whatsapp.net",
+    "username": "zfaa",
+    "email": "zfaa@gmail.com",
+    "reseller": "6283831803866@s.whatsapp.net",
+    "expiresAt": 1767439028202,
+    "suspended": false,
+    "created": 1764847028202,
+    "lastRenewed": 1764847028202,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 38,
+    "name": "Prem Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "prem",
+    "email": "prem@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767441388368,
+    "suspended": false,
+    "created": 1764849388368,
+    "lastRenewed": 1764849388368,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 40,
+    "name": "Nayy Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "nayy",
+    "email": "nayy@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767544108915,
+    "suspended": false,
+    "created": 1764952108915,
+    "lastRenewed": 1764952108915,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 41,
+    "name": "Ppo Server",
+    "owner": "62895803031177@s.whatsapp.net",
+    "username": "ppo",
+    "email": "ppo@gmail.com",
+    "reseller": "62895803031177@s.whatsapp.net",
+    "expiresAt": 1767550818893,
+    "suspended": false,
+    "created": 1764958818893,
+    "lastRenewed": 1764958818893,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 43,
+    "name": "Hantugaul Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "hantugaul",
+    "email": "hantugaul@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767614463860,
+    "suspended": false,
+    "created": 1765022463860,
+    "lastRenewed": 1765022463860,
+    "notified": false,
+    "spec": {
+      "ram": "5000",
+      "disk": "9000",
+      "cpu": "290",
+      "type": "4gb"
+    }
+  },
+  {
+    "serverId": 46,
+    "name": "Zurr Server",
+    "owner": "6287792038186@s.whatsapp.net",
+    "username": "zurr",
+    "email": "zurr@gmail.com",
+    "reseller": "6287792038186@s.whatsapp.net",
+    "expiresAt": 1767698163465,
+    "suspended": false,
+    "created": 1765106163465,
+    "lastRenewed": 1765106163465,
+    "notified": false,
+    "spec": {
+      "ram": "1500",
+      "disk": "3000",
+      "cpu": "100",
+      "type": "1gb"
+    }
+  },
+  {
+    "serverId": 47,
+    "name": "Ipin Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "ipin",
+    "email": "ipin@gmail.com",
+    "reseller": null,
+    "expiresAt": 1767719301975,
+    "suspended": false,
+    "created": 1765127301976,
+    "lastRenewed": 1765127301976,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 48,
+    "name": "Terari Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "terari",
+    "email": "terari@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767747763238,
+    "suspended": false,
+    "created": 1765155763239,
+    "lastRenewed": 1765155763239,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 49,
+    "name": "Fixsc Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "fixsc",
+    "email": "fixsc@gmail.com",
+    "reseller": null,
+    "expiresAt": 1765263706602,
+    "suspended": true,
+    "created": 1765177306602,
+    "lastRenewed": 1765177306602,
+    "notified": true,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    },
+    "suspendedAt": 1765263706836
+  },
+  {
+    "serverId": 50,
+    "name": "Regalcangcut Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "regalcangcut",
+    "email": "regalcangcut@gmail.com",
+    "reseller": null,
+    "expiresAt": 1767866064193,
+    "suspended": false,
+    "created": 1765274064194,
+    "lastRenewed": 1765274064194,
+    "notified": false,
+    "spec": {
+      "ram": "5000",
+      "disk": "9000",
+      "cpu": "290",
+      "type": "4gb"
+    }
+  },
+  {
+    "serverId": 51,
+    "name": "Evelyn Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "evelyn",
+    "email": "evelyn@gmail.com",
+    "reseller": null,
+    "expiresAt": 1767888744095,
+    "suspended": false,
+    "created": 1765296744095,
+    "lastRenewed": 1765296744095,
+    "notified": false,
+    "spec": {
+      "ram": "5000",
+      "disk": "9000",
+      "cpu": "290",
+      "type": "4gb"
+    }
+  },
+  {
+    "serverId": 52,
+    "name": "Vanillachoc Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "vanillachoc",
+    "email": "vanillachoc@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1768011013907,
+    "suspended": false,
+    "created": 1765419013907,
+    "lastRenewed": 1765419013907,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 53,
+    "name": "Velly Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "velly",
+    "email": "velly@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768021396446,
+    "suspended": false,
+    "created": 1765429396448,
+    "lastRenewed": 1765429396448,
+    "notified": false,
+    "spec": {
+      "ram": "1500",
+      "disk": "3000",
+      "cpu": "100",
+      "type": "1gb"
+    }
+  },
+  {
+    "serverId": 54,
+    "name": "Oktaautoorder Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "oktaautoorder",
+    "email": "oktaautoorder@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1768035316310,
+    "suspended": false,
+    "created": 1765443316310,
+    "lastRenewed": 1765443316310,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 55,
+    "name": "Alisa Server",
+    "owner": "6285705390430@s.whatsapp.net",
+    "username": "alisa",
+    "email": "alisa@gmail.com",
+    "reseller": "6285705390430@s.whatsapp.net",
+    "expiresAt": 1768306646492,
+    "suspended": false,
+    "created": 1765714646492,
+    "lastRenewed": 1765714646492,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 57,
+    "name": "Draa Server",
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "draa",
+    "email": "draa@gmail.com",
+    "reseller": "6283898318616@s.whatsapp.net",
+    "expiresAt": 1768444641818,
+    "suspended": false,
+    "created": 1765852641818,
+    "lastRenewed": 1765852641818,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 2,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "eja",
+    "expiresAt": 1768783517917,
+    "suspended": false,
+    "created": 1764388266108,
+    "reseller": null,
+    "suspendedAt": 1766116266201,
+    "notified": false,
+    "lastRenewed": 1766191518448
+  },
+  {
+    "serverId": 49,
+    "name": "Fixsc Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "fixsc",
+    "email": "fixsc@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768463043516,
+    "suspended": false,
+    "created": 1765177306602,
+    "lastRenewed": 1765871043516,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    },
+    "suspendedAt": 1765263706836
+  },
+  {
+    "serverId": 2,
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "eja",
+    "expiresAt": 1768783517917,
+    "suspended": false,
+    "created": 1764388266108,
+    "reseller": null,
+    "suspendedAt": 1766116266201,
+    "notified": false,
+    "lastRenewed": 1766191518448
+  },
+  {
+    "serverId": 49,
+    "name": "Fixsc Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "fixsc",
+    "email": "fixsc@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768463358550,
+    "suspended": false,
+    "created": 1765177306602,
+    "lastRenewed": 1765871358550,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    },
+    "suspendedAt": 1765263706836
+  },
+  {
+    "serverId": 58,
+    "name": "Ipinmd Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "ipinmd",
+    "email": "ipinmd@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1768485903539,
+    "suspended": false,
+    "created": 1765893903541,
+    "lastRenewed": 1765893903541,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 59,
+    "name": "Gudangsc Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "gudangsc",
+    "email": "gudangsc@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1768491567601,
+    "suspended": false,
+    "created": 1765899567601,
+    "lastRenewed": 1765899567601,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 60,
+    "name": "Ipinotp Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "ipinotp",
+    "email": "ipinotp@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1768491614265,
+    "suspended": false,
+    "created": 1765899614266,
+    "lastRenewed": 1765899614266,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 61,
+    "name": "Jawir Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "jawir",
+    "email": "jawir@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1767670442779,
+    "suspended": false,
+    "created": 1765942442779,
+    "lastRenewed": 1765942442779,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 62,
+    "name": "Waffin Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "waffin",
+    "email": "waffin@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1767681961001,
+    "suspended": false,
+    "created": 1765953961001,
+    "lastRenewed": 1765953961001,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 63,
+    "name": "Yoco Server",
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "yoco",
+    "email": "yoco@gmail.com",
+    "reseller": "6283898318616@s.whatsapp.net",
+    "expiresAt": 1767013452318,
+    "suspended": false,
+    "created": 1765976652319,
+    "lastRenewed": 1765976652319,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 64,
+    "name": "Yud Server",
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "yud",
+    "email": "yud@gmail.com",
+    "reseller": "6283898318616@s.whatsapp.net",
+    "expiresAt": 1768396074281,
+    "suspended": false,
+    "created": 1765976874281,
+    "lastRenewed": 1765976874281,
+    "notified": false,
+    "spec": {
+      "ram": "4000",
+      "disk": "7000",
+      "cpu": "250",
+      "type": "3gb"
+    }
+  },
+  {
+    "serverId": 65,
+    "name": "Rahmad Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "rahmad",
+    "email": "rahmad@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768653317769,
+    "suspended": false,
+    "created": 1766061317770,
+    "lastRenewed": 1766061317770,
+    "notified": false,
+    "spec": {
+      "ram": "6000",
+      "disk": "13000",
+      "cpu": "330",
+      "type": "5gb"
+    }
+  },
+  {
+    "serverId": 66,
+    "name": "Daengpalili Server",
+    "owner": "6285705390430@s.whatsapp.net",
+    "username": "daengpalili",
+    "email": "daengpalili@gmail.com",
+    "reseller": "6285705390430@s.whatsapp.net",
+    "expiresAt": 1768654360406,
+    "suspended": false,
+    "created": 1766062360406,
+    "lastRenewed": 1766062360406,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 68,
+    "name": "Viole Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "viole",
+    "email": "viole@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1768268198361,
+    "suspended": false,
+    "created": 1766108198361,
+    "lastRenewed": 1766108198361,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 69,
+    "name": "Ipinbug Server",
+    "owner": "6283843090990@s.whatsapp.net",
+    "username": "ipinbug",
+    "email": "ipinbug@gmail.com",
+    "reseller": "6283843090990@s.whatsapp.net",
+    "expiresAt": 1768702344793,
+    "suspended": false,
+    "created": 1766110344793,
+    "lastRenewed": 1766110344793,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 70,
+    "name": "Mimosa Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "mimosa",
+    "email": "mimosa@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768710738150,
+    "suspended": false,
+    "created": 1766118738151,
+    "lastRenewed": 1766118738151,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  },
+  {
+    "serverId": 71,
+    "name": "Raka Server",
+    "owner": "6283898318616@s.whatsapp.net",
+    "username": "raka",
+    "email": "raka@gmail.com",
+    "reseller": "6283898318616@s.whatsapp.net",
+    "expiresAt": 1768722704235,
+    "suspended": false,
+    "created": 1766130704236,
+    "lastRenewed": 1766130704236,
+    "notified": false,
+    "spec": {
+      "ram": "5000",
+      "disk": "9000",
+      "cpu": "290",
+      "type": "4gb"
+    }
+  },
+  {
+    "serverId": 72,
+    "name": "Clea Server",
+    "owner": "6281249703469@s.whatsapp.net",
+    "username": "clea",
+    "email": "clea@gmail.com",
+    "reseller": null,
+    "expiresAt": 1768797077966,
+    "suspended": false,
+    "created": 1766205077968,
+    "lastRenewed": 1766205077968,
+    "notified": false,
+    "spec": {
+      "ram": "4000",
+      "disk": "7000",
+      "cpu": "250",
+      "type": "3gb"
+    }
+  },
+  {
+    "serverId": 73,
+    "name": "Serv1 Server",
+    "owner": "6285198853944@s.whatsapp.net",
+    "username": "serv1",
+    "email": "serv1@gmail.com",
+    "reseller": "6285198853944@s.whatsapp.net",
+    "expiresAt": 1767705963836,
+    "suspended": false,
+    "created": 1766237163836,
+    "lastRenewed": 1766237163836,
+    "notified": false,
+    "spec": {
+      "ram": "5000",
+      "disk": "9000",
+      "cpu": "290",
+      "type": "4gb"
+    }
+  },
+  {
+    "serverId": 74,
+    "name": "Semvak Server",
+    "owner": "6283831803866@s.whatsapp.net",
+    "username": "semvak",
+    "email": "semvak@gmail.com",
+    "reseller": "6283831803866@s.whatsapp.net",
+    "expiresAt": 1768975435648,
+    "suspended": false,
+    "created": 1766383435648,
+    "lastRenewed": 1766383435648,
+    "notified": false,
+    "spec": {
+      "ram": "0",
+      "disk": "25000",
+      "cpu": "0",
+      "type": "unli"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "120363404466167199@g.us": {
+    "enabled": false,
+    "time": "20:10",
+    "lastSent": "Fri Dec 05 2025",
+    "activated": "2025-12-02T13:01:38.181Z"
+  },
+  "120363420987770900@g.us": {
+    "enabled": true,
+    "time": "20:18",
+    "lastSent": "Sun Dec 21 2025"
+  },
+  "120363160859131896@g.us": {
+    "enabled": true,
+    "time": "07:00",
+    "lastSent": "Mon Dec 22 2025",
+    "activated": "2025-12-04T13:13:15.390Z"
+  }
+}

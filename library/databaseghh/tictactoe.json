@@ -1,0 +1,27 @@
+{
+  "120363403463758608@g.us_1765891674091": {
+    "board": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "players": {
+      "X": "6281249703469@s.whatsapp.net",
+      "O": "6283898318616@s.whatsapp.net"
+    },
+    "currentPlayer": "X",
+    "chatId": "120363403463758608@g.us",
+    "moves": 0,
+    "startedAt": 1765891674092,
+    "lastMove": 1765891674092,
+    "winner": "O",
+    "status": "finished",
+    "resigned": true
+  }
+}

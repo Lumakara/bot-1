@@ -1,0 +1,37 @@
+const fetch = require('node-fetch')
+
+let handler = async (m, { alip, command, isCreator, Reply }) => {
+  if (!isRegistered(m.sender) && !isCreator)
+    return Reply(global.mess.verifikasi);
+if (checkLimit(m.sender, global.isPrem(m.sender), isCreator))
+return Reply(global.mess.limit);
+addLimit(m.sender, global.isPrem(m.sender), isCreator);
+
+    await Reply("⏳ Mengambil berita terbaru CNN...")
+
+    try {
+        let api = `https://api.botcahx.eu.org/api/news/cnn?apikey=${global.apikeyalip}`
+        let res = await fetch(api)
+        let data = await res.json()
+
+        if (!data.status || !data.result) return Reply("❌ Tidak ada berita ditemukan.")
+
+        let berita = data.result.slice(0, 5) // ambil 5 berita teratas
+        let list = berita.map((b, i) => `*${i + 1}. ${b.berita}*\n🔗 ${b.berita_url}`).join("\n\n")
+
+        let hasil = `📰 *BERITA CNN TERBARU*\n\n${list}`
+
+        await alip.sendMessage(m.chat, {
+            image: { url: berita[0].berita_thumb },
+            caption: hasil
+        }, { quoted: m })
+
+    } catch (e) {
+        console.error(e)
+        Reply("❌ Terjadi error saat mengambil berita.")
+    }
+}
+
+handler.command = ["cnn", "news", "berita"]
+
+module.exports = handler

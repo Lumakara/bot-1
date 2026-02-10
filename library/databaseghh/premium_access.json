@@ -1,0 +1,28 @@
+{
+  "users": {
+    "6285186855602@s.whatsapp.net": {
+      "addedBy": "6281249703469@s.whatsapp.net",
+      "addedAt": 1765022922450,
+      "expires": 1767614922450,
+      "days": 30
+    },
+    "6281572368626@s.whatsapp.net": {
+      "addedBy": "6285373311356@s.whatsapp.net",
+      "addedAt": 1766066207879,
+      "expires": 1768658207877,
+      "days": 30
+    },
+    "6289676592961@s.whatsapp.net": {
+      "addedBy": "6281249703469@s.whatsapp.net",
+      "addedAt": 1766231078099,
+      "expires": 1768823078099,
+      "days": 30
+    },
+    "6285129663682@s.whatsapp.net": {
+      "addedBy": "6281249703469@s.whatsapp.net",
+      "addedAt": 1766231601570,
+      "expires": 1768823601569,
+      "days": 30
+    }
+  }
+}
