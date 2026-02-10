@@ -2787,7 +2787,11 @@ ${teks}`;
                         messageParamsJson: JSON.stringify({
                             limited_time_offer: {
                                 text: `${botname}`,
+<<<<<<< HEAD
                                 url: `${botname}`,
+=======
+                                url: `Bot Whatsapp`,
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
                                 copy_code: `${botname}`,
                                 expiration_time: null
                             },
@@ -2822,7 +2826,11 @@ ${teks}`;
                         serverId: 200
                     },
                     externalAdReply: {
+<<<<<<< HEAD
                         title: `${botname} v${versi}`,
+=======
+                        title: `${botname}`,
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
                         body: `${global.namaOwner}`,
                         thumbnailUrl: global.image.menu,
                         sourceUrl: global.namaSaluran,
@@ -2838,7 +2846,11 @@ ${teks}`;
                 contextInfo: {
                     mentionedJid: [m.sender],
                     externalAdReply: {
+<<<<<<< HEAD
                         title: `${botname} v${versi}`,
+=======
+                        title: `${botname}`,
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
                         body: `${global.namaOwner}`,
                         thumbnailUrl: global.image.menu,
                         sourceUrl: global.namaSaluran,
@@ -9469,16 +9481,26 @@ case 'tomirror': {
     const q = m.quoted ? m.quoted : m;
     const mime = (q.msg || q).mimetype || '';
 
+<<<<<<< HEAD
     if (!/^image\//.test(mime))
         return Reply('❌ Reply atau kirim gambar!');
 
     try {
         m.reply('🪞 Membuat mirror aesthetic...');
         await alip.sendMessage(m.chat, { react: { text: "🪞", key: m.key } });
+=======
+    if (!/^image\//.test(mime)) {
+        return Reply('Reply atau kirim gambar!');
+    }
+
+    try {
+        m.reply('🪞 Membuat efek mirror...');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 
         let buffer;
         if (q.download) {
             buffer = await q.download();
+<<<<<<< HEAD
         } else {
             const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
             let chunks = [];
@@ -9501,19 +9523,50 @@ Portrait orientation (9:16), centered subject, high quality realistic photograph
 `;
 
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(pixhostUrl)}&prompt=${encodeURIComponent(PROMPT)}`;
+=======
+        } else if (m.message?.imageMessage) {
+            const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
+            let chunks = [];
+            for await (const chunk of mediaBuffer) {
+                chunks.push(chunk);
+            }
+            buffer = Buffer.concat(chunks);
+        } else {
+            return Reply('Gagal mendapatkan gambar!');
+        }
+
+        const pixhostUrl = await uploadPixhost(buffer, `tomirror-${Date.now()}.jpg`);
+        
+        if (!pixhostUrl) {
+            return Reply('Gagal upload gambar ke Pixhost!');
+        }
+
+        const encodedUrl = encodeURIComponent(pixhostUrl);
+        const apiUrl = `https://api-faa.my.id/faa/tomirror?url=${encodedUrl}`;
+
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
         const resultBuffer = Buffer.from(response.data, 'binary');
 
         await alip.sendMessage(
             m.chat,
+<<<<<<< HEAD
             { image: resultBuffer, caption: '🪞 Done' },
+=======
+            { image: resultBuffer, caption: '✅ Mirror effect done' },
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
             { quoted: m }
         );
 
     } catch (e) {
+<<<<<<< HEAD
         Reply('❌ Gagal memproses gambar!');
     } finally {
         await alip.sendMessage(m.chat, { react: { text: "✅", key: m.key } });
+=======
+        console.error('tomirror Error:', e);
+        Reply('❌ Gagal memproses gambar!');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
     }
     break;
 }
@@ -10287,7 +10340,11 @@ case 'toomniverse': {
         const prompt = promptMap[command] || `transform into ${command.substring(2).replace(/[A-Z]/g, ' $&').toLowerCase().trim()}, detailed transformation, **keep the original facial features similar**`;
         const encodedPrompt = encodeURIComponent(prompt);
         
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodedUrl}&prompt=${encodedPrompt}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodedUrl}&prompt=${encodedPrompt}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
         const resultBuffer = Buffer.from(response.data, 'binary');
 
@@ -10316,16 +10373,26 @@ case 'tobabi': {
     const q = m.quoted ? m.quoted : m;
     const mime = (q.msg || q).mimetype || '';
 
+<<<<<<< HEAD
     if (!/^image\//.test(mime))
         return Reply('❌ Reply atau kirim gambar!');
 
     try {
         m.reply('🎨 Sedang memproses gambar...');
         await alip.sendMessage(m.chat, { react: { text: "🐷", key: m.key } });
+=======
+    if (!/^image\//.test(mime)) {
+        return Reply('Reply atau kirim gambar!');
+    }
+
+    try {
+        m.reply('⏳ Memproses gambar...');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 
         let buffer;
         if (q.download) {
             buffer = await q.download();
+<<<<<<< HEAD
         } else {
             const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
             let chunks = [];
@@ -10340,6 +10407,28 @@ case 'tobabi': {
         const PROMPT = `Transform the person in the image into a realistic anthropomorphic pig character, keeping facial resemblance, expressive pig features, detailed skin and texture, cinematic lighting, realistic environment, ultra detailed, high quality, sharp focus.`;
 
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(pixhostUrl)}&prompt=${encodeURIComponent(PROMPT)}`;
+=======
+        } else if (m.message?.imageMessage) {
+            const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
+            let chunks = [];
+            for await (const chunk of mediaBuffer) {
+                chunks.push(chunk);
+            }
+            buffer = Buffer.concat(chunks);
+        } else {
+            return Reply('Gagal mendapatkan gambar!');
+        }
+
+        const pixhostUrl = await uploadPixhost(buffer, `tobabi-${Date.now()}.jpg`);
+        
+        if (!pixhostUrl) {
+            return Reply('Gagal upload gambar ke Pixhost!');
+        }
+
+        const encodedUrl = encodeURIComponent(pixhostUrl);
+        const apiUrl = `https://api-faa.my.id/faa/tobabi?url=${encodedUrl}`;
+
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
         const resultBuffer = Buffer.from(response.data, 'binary');
 
@@ -10350,9 +10439,14 @@ case 'tobabi': {
         );
 
     } catch (e) {
+<<<<<<< HEAD
         Reply('❌ Gagal memproses gambar!');
     } finally {
         await alip.sendMessage(m.chat, { react: { text: "✅", key: m.key } });
+=======
+        console.error('Tobabi Error:', e);
+        Reply('❌ Gagal memproses gambar!');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
     }
     break;
 }
@@ -10434,16 +10528,26 @@ case 'tosad': {
     const q = m.quoted ? m.quoted : m;
     const mime = (q.msg || q).mimetype || '';
 
+<<<<<<< HEAD
     if (!/^image\//.test(mime))
         return Reply('❌ Reply atau kirim gambar!');
 
     try {
         m.reply('🎨 Sedang memproses gambar...');
         await alip.sendMessage(m.chat, { react: { text: "✨", key: m.key } });
+=======
+    if (!/^image\//.test(mime)) {
+        return Reply('Reply atau kirim gambar!');
+    }
+
+    try {
+        m.reply('⏳ Memproses gambar...');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 
         let buffer;
         if (q.download) {
             buffer = await q.download();
+<<<<<<< HEAD
         } else {
             const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
             let chunks = [];
@@ -10506,6 +10610,28 @@ Realistic texture, cinematic lighting, high quality.
 };
 
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(pixhostUrl)}&prompt=${encodeURIComponent(PROMPT[command])}`;
+=======
+        } else if (m.message?.imageMessage) {
+            const mediaBuffer = await downloadContentFromMessage(m.message, 'image');
+            let chunks = [];
+            for await (const chunk of mediaBuffer) {
+                chunks.push(chunk);
+            }
+            buffer = Buffer.concat(chunks);
+        } else {
+            return Reply('Gagal mendapatkan gambar!');
+        }
+
+        const pixhostUrl = await uploadPixhost(buffer, `${command}-${Date.now()}.jpg`);
+        
+        if (!pixhostUrl) {
+            return Reply('Gagal upload gambar ke Pixhost!');
+        }
+
+        const encodedUrl = encodeURIComponent(pixhostUrl);
+        const apiUrl = `https://api-faa.my.id/faa/${command}?url=${encodedUrl}`;
+
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         const response = await axios.get(apiUrl, { responseType: 'arraybuffer' });
         const resultBuffer = Buffer.from(response.data, 'binary');
 
@@ -10516,9 +10642,14 @@ Realistic texture, cinematic lighting, high quality.
         );
 
     } catch (e) {
+<<<<<<< HEAD
         Reply('❌ Gagal memproses gambar!');
     } finally {
         await alip.sendMessage(m.chat, { react: { text: "✅", key: m.key } });
+=======
+        console.error(`${command} Error:`, e);
+        Reply('❌ Gagal memproses gambar!');
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
     }
     break;
 }
@@ -10818,7 +10949,11 @@ case 'photoai': {
             const merged = await mergePhotos(sess.buf1, buf2);
             const mergedUrl = await uploadUguu(merged, "merged.jpg");
 
+<<<<<<< HEAD
             const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(mergedUrl)}&prompt=${encodeURIComponent(PROMPT_LOCK)}`;
+=======
+            const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(mergedUrl)}&prompt=${encodeURIComponent(PROMPT_LOCK)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -12899,7 +13034,11 @@ if (!global.isPrem(m.sender) && !isCreator)
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(alippelergede)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(alippelergede)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20239,7 +20378,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_CHIBI)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_CHIBI)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20286,7 +20429,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_BOTAK)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_BOTAK)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20330,7 +20477,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(teks)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(teks)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20489,7 +20640,11 @@ case 'polaroid': {
             const merged = await mergePhotos(sess.buf1, buf2);
             const mergedUrl = await uploadUguu(merged, "merged.jpg");
 
+<<<<<<< HEAD
             const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(mergedUrl)}&prompt=${encodeURIComponent(PROMPT_LOCK)}`;
+=======
+            const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(mergedUrl)}&prompt=${encodeURIComponent(PROMPT_LOCK)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20549,7 +20704,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_SUNDA)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_SUNDA)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20599,7 +20758,11 @@ addLimit(m.sender, global.isPrem(m.sender), isCreator);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_JAWA)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_JAWA)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20649,7 +20812,11 @@ addLimit(m.sender, global.isPrem(m.sender), isCreator);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_HIJABPIN)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_HIJABPIN)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -20697,7 +20864,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_PUTIHKAN)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_PUTIHKAN)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -21337,7 +21508,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_FOOTBALL)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_FOOTBALL)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -21837,7 +22012,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadUguu(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_DINO)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_DINO)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -21892,7 +22071,11 @@ addLimit(m.sender, global.isPrem(m.sender), isCreator);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadUguu(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_PENJARA)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_PENJARA)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -21959,7 +22142,11 @@ case 'tomanga': {
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);
 
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_STYLE)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_STYLE)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -22037,7 +22224,11 @@ addLimit(m.sender, global.isPrem(m.sender), isCreator);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_FIGURE)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_FIGURE)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -23182,7 +23373,11 @@ if (!global.isPrem(m.sender) && !isCreator) return Reply(mess.prem);
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadUguu(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_KARTUN)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_KARTUN)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -23845,7 +24040,11 @@ Use soft lighting and warm highlights to enhance the beauty and depth of true Af
         const userImageBuffer = await q.download();
         if (!userImageBuffer) throw new Error("Gagal mengunduh gambar Anda.");
         const userImageUrl = await uploadPixhost(userImageBuffer);     
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/bananaai?apikey=${global.apikeyalip}&url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_HITAMIN)}`;
+=======
+        const apiUrl = `https://api-faa.my.id/faa/editfoto?url=${encodeURIComponent(userImageUrl)}&prompt=${encodeURIComponent(PROMPT_HITAMIN)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
 const response = await axios.get(apiUrl, { responseType: "arraybuffer" });
 const hasilBuffer = Buffer.from(response.data, "binary");
 
@@ -24558,7 +24757,11 @@ case 'fakeml': {
             return Reply('❌ Gagal upload gambar');
         }
         
+<<<<<<< HEAD
         const apiUrl = `${global.apialip}/imagecreator/fakeml?apikey=${global.apikeyalip}&nama=${encodeURIComponent(nickname)}&url=${encodeURIComponent(imageUrl)}`;
+=======
+        const apiUrl = `https://alipai-api.vercel.app/imagecreator/fakeml?apikey=${global.apikeyalip}&nama=${encodeURIComponent(nickname)}&url=${encodeURIComponent(imageUrl)}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         
         await alip.sendMessage(m.chat, {
             image: { url: apiUrl },
@@ -27705,7 +27908,11 @@ case "bratgambar": {
     
     try {
         let encodedText = encodeURIComponent(text);
+<<<<<<< HEAD
         let url = `${global.apialip}/imagecreator/bratv?apikey=${global.apikeyalip}&text=${encodedText}`;
+=======
+        let url = `https://alipai-api.vercel.app/imagecreator/bratv?apikey=${global.apikeyalip}&text=${encodedText}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
         const fs = require('fs');
         const { join } = require('path');
         const { tmpdir } = require('os');
@@ -27760,7 +27967,11 @@ case "bratgambar": {
         console.error('Bratgambar Sticker Error:', e);
         try {
             let encodedText = encodeURIComponent(text);
+<<<<<<< HEAD
             let url = `${global.apialip}/imagecreator/bratv?apikey=${global.apikeyalip}&text=${encodedText}`;
+=======
+            let url = `https://alipai-api.vercel.app/imagecreator/bratv?apikey=${global.apikeyalip}&text=${encodedText}`;
+>>>>>>> 0e99a7642eff347f63eca87d8ccdb24d6c82c9cf
             
             await alip.sendMessage(m.chat, {
                 image: { url: url },
